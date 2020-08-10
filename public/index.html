@@ -4,20 +4,53 @@
     <meta charset="utf-8">
     <title>SpeakerQueue</title>
     <!-- import bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/flatly/bootstrap.min.css"> -->
+    <!-- <link id="dark_mode" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous"> -->
+    <link id="light_mode" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/flatly/bootstrap.min.css">
     
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">SpeakerQueue</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="toggle">
+            <label class="custom-control-label" for="toggle">Dark Mode</label>
+          </div>
+        </div>
+      </nav>
+
     <div class="container">
-        <div class="row justify-content-center p-5">
+        <!-- <div class="row justify-content-center p-5">
             <div class="col">
                 <h1 style= 'text-align: center'>SpeakerQueue</h1>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-4">
             <div class="col col-6">
                 <h3>Instructions:</h3>
                 <p>
@@ -47,7 +80,7 @@
                 <ul class="list-group" id="new_features">
                     <li class="list-group-item">Speech recognition - verbalize the names and watch them appear automatically!</li>
                     <li class="list-group-item">Light/dark mode toggle!</li>
-                    <li class="list-group-item">More interesting animation!s</li>
+                    <li class="list-group-item">More interesting animationx!</li>
                     <li class="list-group-item">Better user interface!</li>
                 </ul>
             </div>
