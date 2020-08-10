@@ -52,7 +52,6 @@ $("#input_names").keyup(function(event) {
 
 // light/dark mode toggle
 $("#toggle").change(function() {
-    console.log("beand");
     if (this.checked) {
         $("#light_mode").remove();
         $("head").append('<link id="dark_mode" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">');
