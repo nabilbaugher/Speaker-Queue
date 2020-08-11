@@ -20,7 +20,7 @@ function add(name) {
          "</li>"
     );
 }
-
+ 
 // remove element from list
 function remove(btn) {
     btn.parentNode.parentNode.removeChild(btn.parentNode);
