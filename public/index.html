@@ -83,5 +83,31 @@
 
     <!-- script -->
     <script src="script.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAERYthzDGR2iMc8dBngQWxlKqsSnH2sV4",
+        authDomain: "speakerqueue.firebaseapp.com",
+        databaseURL: "https://speakerqueue.firebaseio.com",
+        projectId: "speakerqueue",
+        storageBucket: "speakerqueue.appspot.com",
+        messagingSenderId: "944523132334",
+        appId: "1:944523132334:web:d5dc6e0da4998048fb5c3f",
+        measurementId: "G-9TB1TCTK7S"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
 </body>
 </html>
