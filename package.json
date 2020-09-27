@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nabilbaugher/speaker_queue/issues"
   },
-  "homepage": "https://github.com/nabilbaugher/speaker_queue#readme"
+  "homepage": "https://github.com/nabilbaugher/speaker_queue#readme",
+  "dependencies": {
+    "heroku": "^7.42.13"
+  }
 }
